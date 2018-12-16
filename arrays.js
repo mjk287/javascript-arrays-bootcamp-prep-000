@@ -1,10 +1,10 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-function addElementToBiginningOfArray() {
+function addElementToBeginningOfArray() {
   
 }
 
-function destructivelyAddElementToBiginningOfArray(array, element) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   return array.unshift(elment)
 }
 
@@ -13,5 +13,5 @@ function addElementToEndOfArray() {
 }
 
 function destructivelyAddElementToEndOfArray (array, element) {
-  return array.push(elment)
+  return array.push(element)
 }
