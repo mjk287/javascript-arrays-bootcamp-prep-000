@@ -4,14 +4,14 @@ function addElementToBiginningOfArray() {
   
 }
 
-function destructivelyAddElementToBiginningOfArray() {
-  
+function destructivelyAddElementToBiginningOfArray(array, element) {
+  return array.unshift(elment)
 }
 
 function addElementToEndOfArray() {
   
 }
 
-function destructivelyAddElementToEndOfArray () {
-  
+function destructivelyAddElementToEndOfArray (array, element) {
+  return array.push(elment)
 }
